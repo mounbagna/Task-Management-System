@@ -53,7 +53,7 @@ function Home() {
     }));
   }
 
-  const addTodo = async () => {
+  {/*const addTodo = async () => {
     try {
       const response = await axios.post(api_base + "/todo/new", {
         title: title,
@@ -73,9 +73,9 @@ function Home() {
     } catch (error) {
       console.error("Error adding todo:", error);
     }
-  };
+  };*/}
 
-  const editTask = async () => {
+  {/*const editTask = async () => {
     try {
       const response = await axios.put(api_base + '/todo/update/' + title, {
         title: title,
@@ -98,7 +98,7 @@ function Home() {
     } catch (error) {
       console.error("Error updating todo:", error);
     }
-  };
+  };*/}
   
 
   const deleteTodo = async (id) => {
@@ -130,7 +130,7 @@ function Home() {
 
     <div className="text">{filteredTodo.title}</div>
 
-    <div className="delete-todo" onClick={() => deleteTodo(filteredTodo._id)}>x</div>
+    {/*<div className="delete-todo" onClick={() => deleteTodo(filteredTodo._id)}>x</div>*/}
   </div>
 )) : (
   <p>No matching tasks found</p>
@@ -153,8 +153,8 @@ function Home() {
         Back to Homepage page
       </Link>
 
-      <div className="addPopup" onClick={() => setPopupActive(true)}>+</div>
-      {popupActive ? (
+      {/*<div className="addPopup" onClick={() => setPopupActive(true)}>+</div>*/}
+      {/*popupActive ? (
         <div className="popup">
           <div className="closePopup" onClick={() => setPopupActive(false)}>X</div>
           <div className="content">
@@ -199,11 +199,11 @@ function Home() {
             <div className="button" onClick={addTodo}>Create Task</div>
           </div>
         </div>
-      ) : ''}
+      ) : ''*/}
 
       <br /><br /><br />
-      <div className="editPopup" onClick={() => setEditPopupActive(true)}>Edit</div>
-      {editPopupActive ? (
+      {/*<div className="editPopup" onClick={() => setEditPopupActive(true)}>Edit</div>*/}
+      {/*editPopupActive ? (
         <div className="ePopup">
           <div className="closePopup" onClick={() => setEditPopupActive(false)}>X</div>
           <div className="content">
@@ -248,7 +248,7 @@ function Home() {
             <div className="button" onClick={editTask}>Update Task</div>
           </div>
         </div>
-      ) : ''}
+      ) : ''*/}
 
 <br /><br />
       <div className="displayPopup" onClick={() => setDisplayPopupActive(true)}>Display</div>
