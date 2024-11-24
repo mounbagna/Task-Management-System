@@ -126,8 +126,9 @@ function Home() {
   <div
     className={"todo" + (filteredTodo.complete ? " is-complete" : "")}
     key={filteredTodo._id}
-    onClick={() => completeTodo(filteredTodo._id)}
-  >
+    //onClick={() => completeTodo(filteredTodo._id)}
+  > 
+  
     <div className="checkbox"></div>
 
     <div className="text">{filteredTodo.title}</div>
