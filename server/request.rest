@@ -1,0 +1,36 @@
+//CREATE ADMIN
+post http://localhost:8000/adminregister
+Content-Type: application/json
+
+{
+    "name":"abasse",
+    "email":"abdellaabasse@iut-dhaka.edu",
+    "password":"123"
+}
+
+###
+//VERIFY USER WITH TOKEN
+GET http://localhost:8000/
+Authorization: Bearer 8c5ea9943242f33a666c9563793d0790a6212d174dbcde8e67ba5d6695de5b4d
+
+###
+//USER LOGIN
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+    "name": "nouhou",
+    "email": "ibrahimnuhu@iut-dhaka.edu",
+    "password": "123"
+}
+
+###
+//USER REGISTRATION
+POST http://127.0.0.1:8000/register
+Content-Type: application/json
+
+{
+    "name": "nouhou",
+    "email": "ibrahimnuhu@iut-dhaka.edu",
+    "password": "123"
+}
