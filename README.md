@@ -48,28 +48,12 @@ The request.rest file allows you to send various requests for user and admin int
  - Verify User with Token: Verifies the user with a token.
  - User Registration: Use the POST method to register a user.
  - User Login: Use the POST method to log in a user.
- - 
-## Folder Structure
-├── client/           # Frontend code
-
-├── server/           # Backend code
-
-    ├── .env              # Environment variables
-    
-    ├── request.rest      # API request file
-    
-    ├── package-lock.json      # Project metadata and dependencies
-    
-    ├── package.json      # Project metadata and dependencies
-    
-├── .gitignore         # ignore files
-
-├── package-lock.json      # Project metadata and dependencies
-
-├── package.json      # Project metadata and dependencies
-
-├── README.md         # Project documentation
-
+   
+## PROJECT STRUCTURES
+The project files are named to reflect their functions for easy identification. For example:
+ - AdminLogin.jsx – Manages the admin login frontend process at the client site.
+ - index.js - Manages all the neccessary routes at the server site
+Other files follow similar naming conventions to indicate their purpose
 ## Prerequisites
  - Visual studio code
  - Mongodb Database
