@@ -35,6 +35,7 @@ This will launch the server and connect it to the MongoDB database.
 #### 1. Create a .env File:
  - In the root directory of your project, create a .env file.
  - Add the following lines to the file:
+
 ACCESS_TOKEN_SECRET=7K6XPKe1LgU5XBSCOUohDw==
 
 BASE_URL=http://localhost:8000/
@@ -50,17 +51,28 @@ The request.rest file allows you to send various requests for user and admin int
  - 
 ## Folder Structure
 ├── client/           # Frontend code
+
 ├── server/           # Backend code
+
     ├── .env              # Environment variables
+    
     ├── request.rest      # API request file
+    
     ├── package-lock.json      # Project metadata and dependencies
+    
     ├── package.json      # Project metadata and dependencies
+    
 ├── .gitignore         # ignore files
+
 ├── package-lock.json      # Project metadata and dependencies
+
 ├── package.json      # Project metadata and dependencies
+
 ├── README.md         # Project documentation
 
-
+## Prerequisites
+ - Visual studio code
+ - Mongodb Database
 ## How to Use the Application
 ### Admin Interaction:
  - Login: Use the credentials from the request.rest file to log in as the admin.
