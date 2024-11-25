@@ -14,7 +14,7 @@ This is a MERN (MongoDB, Express, React, Node.js) application where the admin ca
  - Registration and Login: Users can register and log in to the app.
  - Task Viewing: Once logged in, users can view all tasks created by the admin.
  - Dynamic Task Search: Users can search for tasks dynamically using the search field.
- - Task Completion: Users can click on a task to mark it as completed and cancel it after finishing.
+ - Task Completion: Users can click on a task to mark it as completed after finishing.
    
 ## Setup and Installation
 ### Server Setup
